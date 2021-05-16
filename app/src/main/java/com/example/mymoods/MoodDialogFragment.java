@@ -79,6 +79,8 @@ public class MoodDialogFragment extends DialogFragment {
                             .show();
                     Log.i("value",selectedId +"");
                 }
+                // i.e. reset all the Radio Buttons
+                surveyRadioGroup.clearCheck();
             }
 
         });
